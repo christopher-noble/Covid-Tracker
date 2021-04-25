@@ -1,0 +1,28 @@
+This program gets COVID-19 data from an API and takes command line arguments to write a report for user specified countries and dates. If no parameters are entered by the user, the default report will write data from South Africa and Panama for the past week.  
+
+Data is made available from https://covid19api.com/
+
+Please see the following instructions on how to run the JAR file:
+
+1. In command prompt, open the working directory in which the project folder is saved (ex. Desktop)
+
+2. Insert this path --> \COVID_GlobalDataReader\out>java -jar driver.jar 
+
+3. Proceeding the path insertion, enter the data for dates and/or countries. All entered data must be followed by space. Format and examples are listed below.
+
+Format:  
+from (YYYY-MM-DD) to (YYYY-MM-DD) (country1) (country2) (country3) (country4)
+
+or
+
+(country1) (country2) (country3) (country4)
+
+Note: Any amount of countries can be entered from 0-4. If you're using dates, you must enter words 'from' and 'to'. 
+
+Examples: 
+Desktop\COVID_GlobalDataReader\out>java -jar driver.jar from 2021-02-01 to 2021-03-04 argentina
+
+Desktop\COVID_GlobalDataReader\out>java -jar driver.jar brazil mexico iran italy
+
+Desktop\COVID_GlobalDataReader\out>java -jar driver.jar from 2020-05-06 to 2021-01-03 japan canada spain france
+
