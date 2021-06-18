@@ -26,6 +26,11 @@ public class Driver
 
 	public static void main(String[] args)
 	{
+		run(args);
+	}
+	
+	public void run(String[] args)
+	{
 		String URI = null;
 		LocalDate oneWeekAgo = LocalDate.now().minusDays(ONE_WEEK);
 		String startDate = null;
@@ -81,5 +86,6 @@ public class Driver
 			}
 		}
 	}
+
 
 }
