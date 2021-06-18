@@ -7,7 +7,7 @@ import java.time.LocalDate;
  * @version 1.0.0
  *          April 1, 2021
  *
- *          This class has a main method with three parameter conditions:
+ *          This class runs the program with three parameter conditions:
  * 
  *          1. If date is entered, print countries between specified date parameters. If no countries are entered, print default
  *          countries Canada and South Africa between specified date parameters.
